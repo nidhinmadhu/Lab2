@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Meeting Minutes Day 1</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    </head>
+    <body>
+        <header>Project Meeting Minutes</header>
+        <h1>Day 1 : Project Start</h1>
+        <h3>Goals: Brainstorming, Scheduling</h3>
+        <h5>October 2 2021</h5>
+        <hr>
+        <h4>Attendance:</h4>
+        <ul>
+            <li>Nidhin Madhu</li>
+            <li>Fake Person 1</li>
+            <li>Fake Person 2</li>
+        </ul>
+        <hr>
+        <h4>Agenda:</h4>
+        <ol>
+            <li>Weekly Meeting Schedule</li>
+            <li>Brainstorm ideas</li>
+            <li>Assign Tasks</li>
+        </ol> 
+        <hr>
+        <h4>Old Business</h4>
+        <ul>
+            <li>Nothing - Its the first meeting</li>
+        </ul>
+        <hr>
+        <h4>New Business</h4>
+        <ul>
+            <li><strong>Weekly Schedule</strong></li>
+            <ul>
+                <li>It has been decided that meetings shall take place every
+                    <b>Thursday</b> from <b>6PM</b> to <b>8PM</b>.
+                </li>
+            </ul>
+            <li><strong>Project Ideas</strong></li>
+            <ul>
+                <li>Idea 1</li>
+                <li>Idea 2</li>
+                <li>Idea 3</li>
+            </ul>
+            <li><strong>Assign Tasks</strong></li>
+            <ul>
+                <li>Nidhin shall be project manager.</li>
+                <li>Fake Person 1 shall be in charge of code.</li>
+                <li>Pake Person 2 shall be in charge of all writeups and testing.</li>
+            </ul>
+        </ul>
+        <hr>
+        <h4>General Comments and Concerns</h4>
+        <p>All members shall contribute to all parts of the project regardless of what task they are in charge of.</p>
+        <p>It is also your responsibilty to read the Meeting Minutes for missed meetings to stay up to date on the project.</p>
+        <hr>
+        <h4>Potential Project Diagram</h4>
+        <img src="DiagramExe.jpg" alt="Project Diagram" width="400" height="300">
+        <hr>
+        <h4>Meeting Recordings</h4>
+        <h5>Video</h5>
+        <video width="320" height="240" controls>
+            <source src="Lab2Video.mp4" type="video/mp4">
+        </video>
+        <h5>Audio Only</h5>
+        <audio controls>
+            <source src="audio_only.mp3" type="audio/mpeg">
+        </audio>
+        <hr>
+        <form action="/action_page.php">
+            <fieldset>
+            <label for="name"> Name:</label>
+            <br>
+            <input type="text" id="name" name="name">
+            <br>
+        <br>
+    
+            <label for="ideas">Choose a Project Idea:</label>
+            <select id="ideas" name="ideas">
+            <option value="id1">Idea 1</option>
+            <option value="id2">Idea 2</option>
+            <option value="id3">Idea 3</option>
+            </select>
+            <br><br>
+            <input type="radio" id="role1" name="role1" value="Manager">
+            <label for="role1">I want to be Project Manager.</label><br>
+            <input type="checkbox" id="role2" name="role2" value="Coder">
+            <label for="role2"> I want to be lead programmer.</label><br>
+            <input type="checkbox" id="role3" name="role3" value="Operations">
+            <label for="role3"> I want to lead team operations.</label><br><br>
+            <label for="w2m">When2MeetNext:</label>
+            <input type="date" id="w2m" name="w2m">
+            <br><br>
+            <p>Where to meet:</p>
+            <input list="locations" name="locations">
+            <datalist id="locations">
+              <option value="Geisel">
+              <option value="Biomedical">
+              <option value="Starbucks">
+            </datalist>
+            <br><br>
+            <textarea name="message" rows="10" cols="30">Additional Comments.</textarea>
+            <br> <br>
+            <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
